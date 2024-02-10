@@ -6,7 +6,7 @@ fetch("https://api.escuelajs.co/api/v1/users")
             fila += `<tr><td>${usuario.email}</td>
                          <td>${usuario.name}</td>
                          <td>${usuario.password}</td>
-                         <td><img src="${usuario.avatar}" alt="" style = "max-width: 90px; max-height: 90px;"></td></tr>`;
+                         <td><img src="${usuario.avatar}" alt="Avatar" style = "max-width: 90px; max-height: 90px;"></td></tr>`;
         }
         document.getElementById("tabla").innerHTML = fila;
     })
